@@ -1,0 +1,37 @@
+{
+  "name": "mundocz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "docz dev",
+    "build": "docz build",
+    "update": "npx npm-check-updates -u"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mundizzle/mundocz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mundizzle/mundocz/issues"
+  },
+  "homepage": "https://github.com/mundizzle/mundocz#readme",
+  "devDependencies": {
+    "babel-eslint": "10.0.1",
+    "docz": "0.13.7",
+    "eslint": "5.12.0",
+    "eslint-config-prettier": "3.4.0",
+    "eslint-plugin-prettier": "3.0.1",
+    "prettier": "1.15.3"
+  },
+  "dependencies": {
+    "docz-theme-default": "0.13.7",
+    "prop-types": "15.6.2",
+    "react": "16.7.0",
+    "react-dom": "16.7.0"
+  }
+}

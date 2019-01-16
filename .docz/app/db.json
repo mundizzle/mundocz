@@ -1,0 +1,42 @@
+{
+  "config": {
+    "title": "Mundocz",
+    "description": "My awesome app using docz",
+    "menu": [],
+    "ordering": "descending",
+    "version": "1.0.0",
+    "repository": "https://github.com/mundizzle/mundocz",
+    "native": false,
+    "codeSandbox": true,
+    "themeConfig": {}
+  },
+  "entries": {
+    "hello.mdx": {
+      "name": "Hello world",
+      "id": "db1457a328db2f022714c9c774fd0a48",
+      "filepath": "hello.mdx",
+      "link": "https://github.com/mundizzle/mundocz/edit/master/hello.mdx",
+      "slug": "hello",
+      "route": "/hello",
+      "order": 0,
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "button",
+          "value": "Button"
+        },
+        {
+          "depth": 2,
+          "slug": "props",
+          "value": "Props"
+        },
+        {
+          "depth": 2,
+          "slug": "usage",
+          "value": "usage"
+        }
+      ]
+    }
+  }
+}
